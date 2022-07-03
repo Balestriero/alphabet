@@ -12,9 +12,24 @@ ul {
   padding: 0;
 }
 
+#et, #beignet2{
+  margin-bottom: 10px;
+}
+
+#en, #encore{
+  margin-bottom: 10px;
+}
+
+#eau, #bateau{
+  margin-bottom: 10px;
+}
+
+#ein, #plein{
+  margin-bottom: 10px;
+}
+
 .button {
   margin-bottom: 3px;
-
   width: 40px;
   height: 30px;
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
@@ -30,9 +45,26 @@ ul {
 	font-weight:bold;
 	text-decoration:none;
 	text-shadow:0px -1px 0px #5b6178;
-
 }
-
+.button2 {
+  margin-bottom: 3px;
+  margin-left: 3px;
+  width: 80px;
+  height: 30px;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
 .button:hover {
   background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
 	background-color:#019ad2;
@@ -60,11 +92,11 @@ h2 {
 }
 
 .motson {
-  margin-left: 25px;
+  margin-left: 55px;
 }
 
 .motlettres {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 #titre2 {
@@ -80,9 +112,12 @@ h2 {
 .titres {
   display: flex;
   text-align: center;
-  margin-left: 35px;
+  margin-left: 15px;
 }
 
+.sons{
+  display: flex;
+}
 .listesons {
 padding-left: 30px;
 }
