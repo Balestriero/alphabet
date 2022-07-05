@@ -1,0 +1,116 @@
+.pronom{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 7px 10px;
+    margin-bottom: 0;
+
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.reglePresent{
+    text-align: center;
+}
+
+.pronoms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span2{
+    display: inline-block;
+}
+
+#pronom1{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 7px 10px;
+    width: fit-content;
+}
+
+#pronom1{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 7px 10px;
+    width: fit-content;
+}
+
+#pronom2{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 7px 10px;
+    width: fit-content;
+}
+
+#pronom3{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 7px 10px;
+    width: fit-content;
+}
+
+#pronom4{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 7px 10px;
+    width: fit-content;
+}
+
+#pronom5{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 7px 10px;
+    width: fit-content;
+}
+
+#pronom6{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 7px 10px;
+    width: fit-content;
+}
+
+.span2{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 7px 10px;
+    margin-bottom: 0;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color:#055dd0;
+    font-size: 12px;
+  }
+  
+  .menu {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  
+  li.menu{
+    margin-left: 10px;
+  }
+  
+  li.menu:nth-child(1){
+    margin-left: 0;
+  }
+
+  .conjPrst{
+    display: flex;
+    flex-direction: column;
+
+  }

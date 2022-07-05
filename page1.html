@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présent simple</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+
+<script>
+    function playmanger() {
+        let audio = new Audio('audios/manger.mp3')
+        audio.play();
+        console.log("ok");
+    }
+
+    function playJemange() {
+        let audio = new Audio('audios/jemange.mp3')
+        audio.play();
+        console.log("ok");
+    }
+
+    function playTumanges() {
+        let audio = new Audio('audios/tumanges.mp3')
+        audio.play();
+        console.log("ok");
+    }
+
+    function playIlmange() {
+        let audio = new Audio('audios/ilmange.mp3')
+        audio.play();
+        console.log("ok");
+    }
+
+    function playnousmangeons() {
+        let audio = new Audio('audios/nousmangeons.mp3')
+        audio.play();
+        console.log("ok");
+    }
+
+    function playVousmangez() {
+        let audio = new Audio('audios/vousmangez.mp3')
+        audio.play();
+        console.log("ok");
+    }
+
+    function playIlsmangent() {
+        let audio = new Audio('audios/ilsmangent.mp3')
+        audio.play();
+        console.log("ok");
+    }
+</script>
+
+<body>
+    <div class="menu">
+        <ul class="menu">
+            <li class="menu"><a href="index.html">Alfabeto</a></li>
+            <li class="menu" style="color:#055dd0"><strong>Presente</strong></li>
+            <li class="menu"><a href="#">Futuro</a></li>
+            <li class="menu"><a href="#">Pretérito perfecto</a></li>
+            <li class="menu"><a href="#">Pretérito imperfecto</a></li>
+
+        </ul>
+    </div>
+
+    <div class="reglePpale">
+        <h1>CONJUGACION</h1>
+        <div class="pronoms">
+            <p id="pronom1" class="pronom">Je (yo)</p>
+            <p id="pronom2" class="pronom">Tu (tu)</p>
+            <p id="pronom3" class="pronom">Il/Elle (el/ella)</p>
+            <p id="pronom4" class="pronom">Nous (nosotros)</p>
+            <p id="pronom5" class="pronom">Vous (ustedes)</p>
+            <p id="pronom6" class="pronom">Ils/Elles (ellos/ellas)</p>
+        </div>
+    </div>
+
+    <h2>Présent simple</h2>
+    <div class="reglePresent">
+        <h3>Verbos del primer grupo</h3>
+        <p> Los verbos del primer grupo son los que terminen con "er"</br>
+
+            </br>Se conjugan asi : -e; -es; -e; -ons; -ez; -ent (tienes que quitar "er" y agregar estas terminaciones)
+        </p>
+
+        <p>Ejemplo : <span class="span2" onclick="playmanger()">manger</span id="verbe"> (cantar) : </br></p>
+        <div class="conjPrst">
+            <div class="conjPrst1">
+                <p class="span2" onclick="playJemange()">Je mang<span style="color:#FF0000">e</span></p>
+                <p class="span2" onclick="playTumanges()">Tu mang<span style="color:#FF0000">es</span></p>
+                <p class="span2" onclick="playIlmange()">Il/Elle mang<span style="color:#FF0000">e</span></p>
+            </div>
+            <div class="conjPrst2">
+                <p class="span2" onclick="playnousmangeons()">Nous mang<span style="color:#FF0000">ons</span></p>
+                <p class="span2" onclick="playVousmangez()">Vous mang<span style="color:#FF0000">ez</span></p>
+                <p class="span2" onclick="playIlsmangent()">Ils/Elles mang<span style="color:#FF0000">ent</span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
