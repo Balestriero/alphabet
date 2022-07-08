@@ -107,7 +107,7 @@ body {
 
 .menu {
   display: flex;
-  margin: 0 auto;
+  margin: 3px auto;
   margin-bottom: 5px;
   font-size: 12px;
   flex-direction: column;
