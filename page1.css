@@ -2,18 +2,33 @@
     background-color: aquamarine;
     border-radius: 20px;
     padding: 7px 10px;
-    margin-bottom: 0;
-
 }
+
 
 h1{
     text-align: center;
+    color: #057fd0;
 }
 
 h2{
     text-align: center;
+    color: #057fd0;
+
 }
 
+h3{
+    margin-top:20px;
+    text-decoration:underline rgb(42, 230, 255) 3px;
+}
+
+.conjPrst1{
+    margin-top: 0;
+}
+
+.conjPrst2{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 .reglePresent{
     text-align: center;
 }
@@ -24,22 +39,12 @@ h2{
     align-items: center;
 }
 
-.span2{
-    display: inline-block;
-}
-
 #pronom1{
     background-color: aquamarine;
     border-radius: 20px;
     padding: 7px 10px;
     width: fit-content;
-}
-
-#pronom1{
-    background-color: aquamarine;
-    border-radius: 20px;
-    padding: 7px 10px;
-    width: fit-content;
+    margin-bottom: 5px;
 }
 
 #pronom2{
@@ -47,6 +52,8 @@ h2{
     border-radius: 20px;
     padding: 7px 10px;
     width: fit-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #pronom3{
@@ -54,6 +61,8 @@ h2{
     border-radius: 20px;
     padding: 7px 10px;
     width: fit-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #pronom4{
@@ -61,6 +70,8 @@ h2{
     border-radius: 20px;
     padding: 7px 10px;
     width: fit-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #pronom5{
@@ -68,6 +79,8 @@ h2{
     border-radius: 20px;
     padding: 7px 10px;
     width: fit-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #pronom6{
@@ -75,13 +88,53 @@ h2{
     border-radius: 20px;
     padding: 7px 10px;
     width: fit-content;
+    margin-top: 5px;
 }
 
-.span2{
-    background-color: aquamarine;
-    border-radius: 20px;
-    padding: 7px 10px;
-    margin-bottom: 0;
+.span2 {
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	background-color:#77d42a;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aade7c;
+}
+.span2:hover {
+	background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	background-color:#5cb811;}
+.span2:active {
+	position:relative;
+	top:1px;
+}
+.span3 {
+    box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+}
+.span3:hover {
+    background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;}
+
+.span3:active {
+	position:relative;
+	top:1px;
 }
 
 h1 {
@@ -99,6 +152,21 @@ a{
     margin: 0 auto;
     margin-bottom: 5px;
     font-size: 12px;
+    flex-direction: column;
+  }
+
+  .menu1{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .menu2{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 12px;
   }
   
   li.menu{
@@ -109,8 +177,22 @@ a{
     margin-left: 0;
   }
 
-  .conjPrst{
-    display: flex;
-    flex-direction: column;
+p{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.losverbos{
+    margin-top: 30px;
+  }
+
+  .etre {
+    color: #bc80ea;
 
   }
+
+  .avoir {
+    color: #77d42a;
+
+  }
+

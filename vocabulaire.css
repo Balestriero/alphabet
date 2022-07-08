@@ -1,0 +1,126 @@
+.span2 {
+  box-shadow: inset 0px 1px 0px 0px #caefab;
+  background: linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+  background-color: #77d42a;
+  border-radius: 6px;
+  border: 1px solid #268a16;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 4px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #aade7c;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 255px;
+}
+.span2:hover {
+  background: linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+  background-color: #5cb811;
+}
+.span2:active {
+  position: relative;
+  top: 1px;
+}
+
+.menu {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 12px;
+  flex-direction: column;
+}
+
+.menu1 {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.menu2 {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+li.menu {
+  margin-left: 10px;
+}
+
+li.menu:nth-child(1) {
+  margin-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #055dd0;
+  font-size: 12px;
+}
+
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.conj {
+  display: flex;
+
+
+  justify-content: center;
+}
+
+.voc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 400px;
+}
+
+.espagnol {
+  width: 180px;
+  font-size: 18px;
+  color: rgb(26, 97, 250);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.fleche {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 40px;
+  /* margin-left: 20px; */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, rgb(26, 250, 194), rgb(26, 97, 250));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, rgb(26, 97, 250), rgb(26, 250, 194));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
