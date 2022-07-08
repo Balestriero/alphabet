@@ -7,7 +7,7 @@
   display: inline-block;
   cursor: pointer;
   font-family: Arial;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   padding: 8px 4px;
   text-decoration: none;
@@ -87,7 +87,7 @@ a {
 
 .espagnol {
   width: 180px;
-  font-size: 18px;
+  font-size: 14px;
   color: rgb(26, 97, 250);
   margin-bottom: 15px;
   display: flex;
