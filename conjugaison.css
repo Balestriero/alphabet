@@ -22,7 +22,6 @@
     height: 145px;
     line-height: 145px;
     vertical-align:middle;
-  
   }
 
   .myButton1:hover {
@@ -107,7 +106,7 @@ body {
 
 .menu {
   display: flex;
-  margin: 3px auto;
+  margin: 0 auto;
   margin-bottom: 5px;
   font-size: 12px;
   flex-direction: column;

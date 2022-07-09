@@ -5,15 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alphabet</title>
+    <title>Conjugación</title>
     <link rel="stylesheet" href="conjugaison.css">
 </head>
 
 
 <body>
+    <script>
+    function goToPresent() {
+        window.location.href = "present.html"
+    }
+
+</script>
+
     <div class="menu">
         <ul class="menu1">
-            <li class="menu"><a href="index.html">Alfabet</a></li>
+            <li class="menu"><a href="index.html">Alfabeto</a></li>
             <li class="menu" style="color:#055dd0"><strong>Conjugación</strong></li>
             <li class="menu"><a href="vocabulaire.html">Vocabulario francés</a></li>
         </ul>
@@ -25,7 +32,8 @@
     <h1>Conjugación</h1>
     <div class="temps">
         <div class="temps1">
-            <div class="presente myButton1"><a href="present.html">PRESENTE</a></div>
+            <div class="presente myButton1" onclick="goToPresent()">PRESENTE</div>
+            <!-- <div class="presente myButton1" onclick="goToPresent()"><a href="present.html">PRESENTE</a></div> -->
             <div class="futuro myButton1">FUTURO</div>
         </div>
         <div class="temps2">
