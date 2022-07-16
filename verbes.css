@@ -140,11 +140,11 @@ a {
 }
 
 #retourHaut{
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   position:fixed;
-  top: 600px;
-  right: 50px;
+  top: 400px;
+  right: 60px;
 }
 
 
