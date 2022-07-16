@@ -16,7 +16,6 @@ html{
 h2{
     text-align: center;
     color: #057fd0;
-
 }
 
 h3{
@@ -36,10 +35,17 @@ h3{
     text-align: center;
 }
 
-.pronoms {
+.pronomspc {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 125px;
+}
+
+.pronoms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #pronom1{
@@ -67,6 +73,36 @@ h3{
     margin-top: 5px;
 }
 
+#pronom11{
+  background-color: rgb(255, 117, 170);
+  border-radius: 20px;
+  padding: 7px 10px;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+#pronom12, #pronom13, #pronom14, #pronom15{
+  background-color: rgb(255, 117, 170);
+  border-radius: 20px;
+  padding: 7px 10px;
+  width: fit-content;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#pronom16{
+  background-color: rgb(255, 117, 170);
+  border-radius: 20px;
+  padding: 7px 10px;
+  width: fit-content;
+  margin-top: 5px;
+}
+
+.aux{
+  display: flex;
+  width: 250px;
+  margin: 0 auto;
+}
 .span2 {
     box-shadow:inset 0px 1px 0px 0px #caefab;
 	background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);

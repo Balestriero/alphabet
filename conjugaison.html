@@ -18,6 +18,12 @@
         function goToFutur() {
             window.location.href = "futur.html"
         }
+        function goToImparfait() {
+            window.location.href = "imparfait.html"
+        }
+        function goToPasseCompose() {
+            window.location.href = "passecompose.html"
+        }
     </script>
 
     <div class="menu">
@@ -32,13 +38,12 @@
     <h1>Conjugación</h1>
     <div class="temps">
         <div class="temps1">
-            <div class="presente myButton1" onclick="goToPresent()">PRESENTE</div>
-            <!-- <div class="presente myButton1" onclick="goToPresent()"><a href="present.html">PRESENTE</a></div> -->
-            <div class="futuro myButton1" onclick="goToFutur()">FUTURO</div>
+            <div class="presente myButton1" onclick="goToPresent()">PRESENT</div>
+            <div class="futuro myButton1" onclick="goToFutur()">FUTUR</div>
         </div>
         <div class="temps2">
-            <div class="preteritoPerfecto myButton2"><span>PRETERITO PERFECTO</span></div>
-            <div class="preteritoImperfecto myButton2"><span>PRETERITO IMPERFECTO</span></div>
+            <div class="preteritoPerfecto myButton2" onclick="goToPasseCompose()"><span>PASSÉ COMPOSÉ</span></div>
+            <div class="preteritoImperfecto myButton2" onclick="goToImparfait()"><span>IMPARFAIT</span></div>
         </div>
     </div>
 </body>
