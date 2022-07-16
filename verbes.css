@@ -20,8 +20,8 @@ html {
   text-align: center;
   align-self: center;
   width: 125px;
-  height: 20px;
-  line-height: 20px;
+  height: 30px;
+  line-height: 30px;
   vertical-align: middle;
 }
 
@@ -48,11 +48,15 @@ a {
   text-decoration: none;
 }
 
+.menuAuxiliaires{
+  margin-bottom: 10px;
+}
+
 .menuGroupe2,
 .menuGroupe3 {
   width: 260px;
   margin: 0 auto;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -141,9 +145,9 @@ h2 {
 }
 
 #retourHaut {
+  position: fixed;
   width: 30px;
   height: 30px;
-  position: fixed;
   top: 650px;
   right: 40px;
 }
