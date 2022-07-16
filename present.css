@@ -112,9 +112,9 @@ h3{
 	display:inline-block;
 	cursor:pointer;
 	font-family:Arial;
-	font-size:15px;
+	font-size:13px;
 	font-weight:bold;
-	padding:6px 24px;
+	padding:6px 4px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #aade7c;
 }
@@ -134,9 +134,9 @@ h3{
 	display:inline-block;
 	cursor:pointer;
 	font-family:Arial;
-	font-size:15px;
+	font-size:13px;
 	font-weight:bold;
-	padding:6px 24px;
+	padding:6px 4px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #9752cc;
 }
