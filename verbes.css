@@ -12,7 +12,7 @@ html {
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
   padding: 0px 0px;
   text-decoration: none;
@@ -48,7 +48,7 @@ a {
   text-decoration: none;
 }
 
-.menuAuxiliaires{
+.menuAuxiliaires {
   margin-bottom: 10px;
 }
 
@@ -149,7 +149,7 @@ h2 {
   width: 30px;
   height: 30px;
   top: 650px;
-  right: 40px;
+  right: 30px;
 }
 
 /* MENU DE NAVIGATION */
